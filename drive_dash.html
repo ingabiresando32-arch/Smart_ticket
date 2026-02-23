@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Driver Dashboard</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+<!-- NAVBAR -->
+<div class="bg-teal-700 text-white p-4 flex justify-between">
+  <h1 class="text-xl font-bold">Driver / Agency Panel</h1>
+  <div class="flex gap-3 items-center">
+    <img src="log.png" class="w-10 h-10 rounded-full border-2 border-white">
+    <a href="index.html" class="bg-red-600 px-3 py-1 h-7 rounded hover:bg-red-700 text-sm">Logout</a>
+  </div>
+</div>
+
+<div class="p-6 space-y-6">
+
+  <!-- NEW BOOKINGS -->
+  <div class="bg-white p-5 rounded-xl shadow">
+    <h2 class="text-lg font-bold mb-3">New Booking Requests</h2>
+
+    <div class="flex justify-between bg-gray-100 p-3 rounded mb-2">
+      <div>
+        <p class="font-semibold">Passenger: Alice</p>
+        <p>Kigali → Musanze</p>
+      </div>
+      <button class="bg-green-600 text-white px-3 py-1 rounded">Accept</button>
+    </div>
+
+    <div class="flex justify-between bg-gray-100 p-3 rounded">
+      <div>
+        <p class="font-semibold">Passenger: Patrick</p>
+        <p>Kigali → Nairobi</p>
+      </div>
+      <button class="bg-green-600 text-white px-3 py-1 rounded">Accept</button>
+    </div>
+  </div>
+
+  <!-- TRIP STATUS -->
+  <div class="bg-white p-5 rounded-xl shadow">
+    <h2 class="text-lg font-bold mb-3">Trip Status</h2>
+
+    <div class="flex justify-between bg-gray-100 p-3 rounded">
+      <span>Pickup in progress</span>
+      <span class="text-green-600 font-bold">On the way</span>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
